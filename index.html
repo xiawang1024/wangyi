@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=0.342,user-scalable=no">
+	<link rel="shortcut icon" href="images/icon.png">
+	<title>网易教育产品部</title>
+	<base target="_blank" />
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="js/md5.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script src="http://api.html5media.info/1.1.4/html5media.min.js"></script>
+</head>
+<body>
+	<!-- 遮罩 -->
+	<div id="bg-cover" style="display:none"></div>
+	<div id="login-wrap" style="display:none">
+	<!-- 登陆框 -->
+		<i class="z-close"></i>
+		<h2>登陆网易云课堂</h2>
+		<p><input type="text" id="userName" placeholder="账号"></p>
+		<p><input type="password" id="userPass" placeholder="密码"></p>
+		<button class="login-btn"></button>
+	</div>
+	<!-- 头部 -->
+	<div id="g-hd">
+		<!-- 提示信息 -->
+		<div id="tips-wrap">
+			<div id="m-tips">
+				<p class="tips">网易云课堂微专业，帮助你掌握专业技能，令你求职或加薪多一份独特优势！<a href="http://study.163.com/smartSpec/intro.htm#/smartSpecIntro">立即查看&gt;</a></p>
+				<span class="z-close">不再提醒</span>
+			</div>
+		</div>
+		<!-- 头部导航 -->
+		<div id="m-nav">
+			<div class="u-logo">
+				<h2 class="logo">网易教育产品部</h2>
+			</div>
+			<div class="u-login">
+				<button class="login" >关注</button>
+				<button class="cancel" style="display:none">已关注<span class="cancel-btn">取消</span></button>
+				<span class="count">粉丝45</span>
+				<!-- 弹出登陆框 -->
+			</div>
+			<div class="u-menu">
+				<a href="http://open.163.com/">网易公开课</a>
+				<a href="http://study.163.com/">云课堂</a>
+				<a href="http://www.icourse163.org/">中国大学MOOC</a>
+				<a class="sch" href="#"></a>
+			</div>
+		</div>
+	</div>
+	<!-- body  -->
+	<div id="g-bd" class="clearfix">
+		<!-- 轮播图 -->
+		<div class="slide-wrap">
+			<div class="m-slide">
+			    <ol>
+			       <li class="z-crt"><a href="http://open.163.com/"><img src="images/banner1.jpg"></a></li>
+				   <li><a href="http://study.163.com/"><img src="images/banner2.jpg"></a></li>
+				   <li><a href="http://www.icourse163.org/"><img src="images/banner3.jpg"></a></li>
+			    </ol>
+			</div>
+			<span class="u-pointer"><i class="z-crt"></i><i></i><i></i></span>
+		</div>
+		<!-- 产品类 -->
+		<div id="m-product">
+			<div class="product-content">
+				<div class="product-left"></div>
+				<div class="product-right">
+					<h3>网易公开课</h3>
+					<p>推出国内外名校公开课，涉猎广泛的学科，名校老师认真讲解深度剖析，网易视频公开课频道搭建起强有力的网络视频教学台。</p>
+					<a href="http://open.163.com/">了解更多 &gt;</a>
+				</div>
+			</div>
+			<div class="product-content">
+				<div class="product-left"></div>
+				<div class="product-right">
+					<h3>网易云课堂</h3>
+					<p>网易旗下大型在线学习平台，该平台面向学习者提供海量免费、优质课程,创新的个性化学习体验，自由开放的交流互动环。</p>
+					<a href="http://study.163.com/">了解更多 &gt;</a>
+				</div>
+			</div>
+			<div class="product-content last">
+				<div class="product-left"></div>
+				<div class="product-right">
+					<h3>中国大学MOOC</h3>
+					<p>是爱课程网携手云课堂打造的在线学习平台，每一个有提升愿望的人,都可以在这里学习中国最好的大学课程，学完还能获得认证证书。</p>
+					<a href="http://www.icourse163.org/">了解更多 &gt;</a>
+				</div>
+			</div>
+		</div>
+		<!-- 内容区	 -->
+		<div class="m-wrap ">
+			<!-- 工作环境 -->
+			<div class="workplace-wrap">
+				<div class="workplace">
+					<img src="images/01.jpg" alt="工作环境">
+					<img src="images/02.jpg" alt="工作环境">
+					<img src="images/03.jpg" alt="工作环境">
+					<img src="images/04.jpg" alt="工作环境">
+					<img src="images/05.jpg" alt="工作环境">
+				</div>
+			</div>
+			<!-- item 容器 -->
+			<div class="item-box clearfix">
+				<div class="g-main clearfix">
+					<!-- tab切换器 -->
+					<div class="tab">
+						<span class="z-crt" type='10'>产品设计</span>
+						<span type='20'>编程语言</span>
+					</div>
+					<!-- item列表 -->
+					<div class="item-list clearfix">
+						<!-- <div class="list-wrap">
+							<div class="list">
+								<a href=""><img class="list-img" src="images/c01.jpg"></a>
+								<h3 class="list-text">混音全揭秘 舞曲实战篇 揭秘音乐揭秘揭秘音乐舞曲..</h3>
+								<p class="list-label">音频帮</p>
+								<span class="list-count">510</span>
+								<strong class="list-price">￥880.00</strong>
+								<div class="list-show clearfix" >
+									<a href=""><img class="show-img clearfix" src="images/c01.jpg"></a>
+									<h3 class="name">混音全揭秘揭</h3>
+									<span class="learnerCount">510000</span>
+									<p class="provider">发布者：翁恺<br>分类：无</p>
+									<p class="describe">TOC-101课程是Java程序设计方向的基础实训课程，主要介绍Java程序的基本结构和核心语法，课程内容涉及基本技术，能理解计算机程序的执行逻辑，能编写简单的Java程序。</p>
+								</div>
+							</div>
+						</div> -->
+					</div>
+					<!-- 翻页 -->
+					<div class="m-page">
+					    <a class="first" href="#" class="first pageprv z-dis"><span class="pagearr">&lt;</span></a>
+					    <a href="#">1</a>
+					    <a href="#" class="z-crt">2</a>
+					    <a href="#">3</a>
+					    <a href="#">4</a>
+					    <a href="#">5</a>
+					    <a href="#">6</a>
+					    <a href="#">7</a>
+					    <a href="#">8</a>
+					    <a class="last"  class="last pagenxt"><span class="pagearr">&gt;</span></a>
+					</div>
+				</div>
+				<div class="g-side clearfix">
+					<div class="m-video">
+						<h3>机构介绍</h3>
+						<div>
+							<p>观看下面的视频来了解吧:</p>
+							<img class="video-btn" src="images/videoSmall.jpg">
+						</div>
+					</div>
+					<!-- 弹出视频 -->
+					<div class="video-wrap" style="display:none">
+						<i class="z-close"></i>
+						<h3>请观看下面的视频</h3>
+						<video width="889" height="538" controls="controls" poster="images/videoBig.jpg">
+							<source src="http://mov.bn.netease.com/open-movie/nos/mp4/2014/12/30/SADQ86F5S_shd.mp4"  >
+						</video>
+					</div>
+					<!-- 最热排行 -->
+					<div class="m-hot clearfix">
+						<h3>最热排行</h3>
+						<div class="hot-list">
+							<div class="hot-wrap">
+								<div class="hot-up">
+									<!-- <a href="">
+									<div><img src="images/small.png"></div>
+									<p>舞曲揭秘音乐揭秘揭秘音乐舞曲</p>
+									<span>21657</span>
+									</a> -->
+								</div>
+								<div class="hot-down">
+									<!-- <a href="">
+									<div><img src="images/small.png"></div>
+									<p>舞曲揭秘音乐揭秘揭秘音乐舞曲</p>
+									<span>21657</span>
+									</a> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- 尾部 -->
+    <div id="g-ft">
+    	<div class="ft-wrap clearfix">
+    		<div class="ft-logo">
+	    		<h2>网易教育产品部</h2>
+	    		<p>©2014 icourse163.org 浙ICP备08114786号-1 icourses.cn 京ICP备12020869</p>
+	    		<p>icourses.cn 京ICP备12020869</p>
+	    	</div>
+	    	<div class="ft-link">
+	    		<span>友情链接：</span>
+	    		<ul>
+	    			<li><a href="http://open.163.com/ ">网易公开课</a></li>
+	    			<li><a href="http://study.163.com/ ">网易云课堂</a></li>
+	    			<li><a href="http://www.icourse163.org/ ">中国大学MOOC</a></li>
+	    		</ul>
+	    	</div>
+	    	<div class="ft-home">
+	    		<span>我们：</span>
+	    		<ul>
+	    			<li><a href="#">关于</a></li>
+	    			<li><a href="#">联系</a></li>
+	    			<li><a class="weibo" href="http://weibo.com/login.php">关注</a></li>
+	    		</ul>
+	    	</div>
+	    	<div class="ft-more">
+	    		<span>更多：</span>
+	    		<ul>
+	    			<li><a href="">常见问题</a></li>
+	    			<li><a href="">意见反馈</a></li>
+	    		</ul>
+	    	</div>
+    	</div>
+    </div>
+
+</body>
+</html>
